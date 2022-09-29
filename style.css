@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hero1{
+    height: 100vh;
+    background-image: url('./images/model-y.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+}
+.upper{
+    margin-top: 4rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    
+}
+.lower{
+    margin-bottom: 4rem;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width:15rem ;
+    border-radius: 10px;
+}
+.btn2{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    width:15rem ;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+nav{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 1rem;
+}
